@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    >
+    <TableRow>
+        <TextView android:text="什么时候吃"
+            android:textSize="15pt"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <RadioGroup android:id="@+id/types">
+            <RadioButton android:id="@+id/time1Button"
+                android:text="11:45--12:30"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time2Button"
+                android:text="12:30--13:00"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time3Button"
+                android:text="13:00--13:30"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time4Button"
+                android:text="13:30--14:00"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time5Button"
+                android:text="14:00--14:30"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time6Button"
+                android:text="17:15--18:00"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time7Button"
+                android:text="18:00--18:30"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time8Button"
+                android:text="18:30--19:00"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time9Button"
+                android:text="19:00--19:30"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+            <RadioButton android:id="@+id/time10Button"
+                android:text="19:30--20:00"
+                android:textSize="10pt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+
+        </RadioGroup>
+    </TableRow>
+    <Button android:id="@+id/finishButton"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:text="开始匹配!"
+        />
+</TableLayout>
